@@ -1,0 +1,166 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- CDN For Fontawesome and Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<!-- Custom CSS -->
+		<title>Example</title>
+	</head>
+	<body>
+		<div class="container" style="padding-top:50px;">
+			<h1>Button Dropdown</h1>
+			<div class="row">
+				<div class="col-md-12">
+
+					<!-- Button Code for Bootstrap -->
+					<div class="dropdown">
+						<div class="btn-group">
+							<button type="button" class="btn btn-info">Click Me</button>
+							<button type="button" data-toggle="dropdown" id="clickme" aria-haspopup="true" aria-expanded="false" class="btn btn-info dropdown-toggle">
+								<span class="caret"></span>
+								<span class="sr-only">Toggle Dropdown</span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="clickme">
+								<li class="dropdown-header">Common</li>
+								<li><a href="#">Test 1</a></li>
+								<li><a href="#">Test 2</a></li>
+								<li class="disabled"><a href="#">Test 3</a></li>
+								<li role="separator" class="divider"></li>
+								<li class="dropdown-header">Not Common</li>
+								<li><a href="#">Test 4</a></li>
+								<li><a href="#">Test 5</a></li>
+								<li><a href="#">Test 6</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr/>
+
+			<!-- Button Group Code -->
+			<h1>Button Group</h1>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="btn-group btn-group-justified" role="group" aria-label="…">
+						<div class="btn-group" role="group" aria-label="…">
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-default">Testing</button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-default">Testing</button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-default">Testing</button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-default">Testing</button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-default">Testing</button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-default">Testing</button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-default">Testing</button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-default">Testing</button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-default">Testing</button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-default">Testing</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr/>
+
+			<!-- Navigation Code -->
+			<div class="row">
+				<div class="col-md-12">
+					<!-- navbar-inverse/navbar-fixed-bottom -->
+					<nav class="navbar navbar-inverse navbar-fixed-top">
+						<div class="container">
+							<!-- nav-stacked, nav-justified, nav-pill, nav-tabs-->
+							<!-- Adjust bodystyle to nav as it goes over -->
+							<ul class="nav navbar-nav">
+								<li><a href="">Link</a></li>
+								<li class="active"><a href="">Link</a></li>
+								<li><a href="">Link</a></li>
+								<li><a href="">Link</a></li>
+								<li><a href="">Link</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+
+			<!-- Aligning Navbar Content/Stacking Menu  -->
+			<h1>Navigation Content</h1>
+			<div class="row">
+				<div class="col-md-12">
+					<!-- Navbar Images *Logo* -->
+					<nav class="navbar navbar-inverse">
+						<div class="container">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu" aria-expanded="false">
+									<span class="sr-only">Toggle Navigation</span>
+									<i class="fa fa-bars fa-lg" style="color:white;"></i>
+								</button>
+
+
+									<a href=""class="navbar-brand">
+										Coolio
+									</a>
+									<p class="navbar-text">Things</p>
+								</div>
+								<div class="collapse navbar-collapse" id="collapsemenu">
+									<ul class="nav navbar-nav">
+										<li>
+											<a href="#" class="drowdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Link
+												<span class="caret"></span></a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Link 2</a></li>
+													<li><a href="#">Link 2</a></li>
+													<li><a href="#">Link 2</a></li>
+												</ul>
+											</li>
+											<li class="active"><a href="">Link</a></li>
+											<li><a href="">Link</a></li>							
+											<li><a href="">Link</a></li>
+										</ul>
+									</div>
+									<!-- nav-stacked, nav-justified, nav-pill, nav-tabs-->
+									<!-- Adjust bodystyle to nav as it goes over -->
+
+									<!-- Navbar-btn aligns to navbar content -->
+									<button type="button" class="btn btn-default navbar-btn">Sign In</button>
+
+									<form class="navbar-form navbar-left" role="search">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Search">
+											<button type="submit" class="btn btn-default">Go</button>
+										</div>
+									</form>
+
+								</div>
+							</nav>
+						</div>
+						</div
+
+					</div>
+				</div></div>
+				<!-- Bootstrap/jQuery JS CDN -->
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+				<!-- Custom JS -->
+			</body>
+			</html>
